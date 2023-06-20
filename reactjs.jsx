@@ -25,8 +25,7 @@ function App() {
     }
   };
 
-  const handleLikeClick = (id) => {
-    const updatedMessages = messages.map(message => {
+  const handleLikeClick = (id) =>
       if (message.id === id) {
         return {
           ...message,
